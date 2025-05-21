@@ -1,7 +1,7 @@
 {
   "name": "zapcall-signaling",
   "version": "1.0.0",
-  "description": "ZapCall WebRTC Signaling Server - Cloudflare Worker",
+  "description": "ZapCall WebRTC Signaling Server - Cloudflare Worker with on-demand activation",
   "main": "worker.js",
   "scripts": {
     "deploy": "wrangler publish",

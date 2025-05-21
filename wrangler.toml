@@ -4,4 +4,10 @@ compatibility_date = "2023-05-18"
 
 # Configure WebSocket support
 [triggers]
+# Define a queue to handle signaling messages
+queues = [
+  { name = "signaling-queue", consumer = "default" }
+]
+
+# No crons needed as we'll use on-demand activation
 crons = []
