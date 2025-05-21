@@ -1,0 +1,16 @@
+{
+  "name": "zapcall-signaling",
+  "version": "1.0.0",
+  "description": "ZapCall WebRTC Signaling Server - Cloudflare Worker",
+  "main": "worker.js",
+  "scripts": {
+    "deploy": "wrangler publish",
+    "dev": "wrangler dev"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
